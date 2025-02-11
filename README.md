@@ -4,6 +4,10 @@ Collections of routines from FFmpeg (Libav) for use with flutter using Dart ffi 
 
 The main purpose of this library is to make a simple muxer for another app that I develop. I know that there are better ways to use ffmepg with flutter but I never understand why nobody use the Libav I mean the FFmpeg libraries. It coould be hard to learn Libav but I think is worthy. I expect only save FFmpeg utils here.
 
+## TODO:
+
+- Make script for download and build FFmpeg. For now use [ffmpeg-android-maker](https://github.com/Javernaut/ffmpeg-android-maker) to build android bundle.
+
 ## Getting Started
 
 This project is a starting point for a Flutter

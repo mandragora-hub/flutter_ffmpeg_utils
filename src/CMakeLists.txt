@@ -37,7 +37,7 @@ target_compile_definitions(ffmpeg_utils PUBLIC DART_SHARED_LIB)
 if (ANDROID)
 
   # Add ffmpeg library
-  set(FFMPEG_DIR ${CMAKE_CURRENT_SOURCE_DIR}/../android/dependecies/ffmpeg/${ANDROID_ABI})
+  set(FFMPEG_DIR ${CMAKE_CURRENT_SOURCE_DIR}/.dependecies/android/ffmpeg/${ANDROID_ABI})
   set(AV_LIBRARY 
     ${FFMPEG_DIR}/lib/libavcodec.so
     ${FFMPEG_DIR}/lib/libavdevice.so
